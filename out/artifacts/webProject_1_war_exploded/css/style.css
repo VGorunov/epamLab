@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.header{
+    background-color: navy;
+    width: 100%;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header p{
+    text-align: right;
+    color: white;
+}
+
+table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 100%;
+}
+
+th {
+    border: 2px solid lightgray;
+    padding: 5px;
+    padding-right: 30px;
+}
