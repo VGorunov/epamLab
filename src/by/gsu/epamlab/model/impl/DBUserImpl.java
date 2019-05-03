@@ -7,10 +7,6 @@ import by.gsu.epamlab.model.exception.DAOException;
 import by.gsu.epamlab.model.exception.InvalidLoginOrPasswordException;
 import by.gsu.epamlab.model.interfaces.IUserDAO;
 
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.NamingException;
-import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -88,6 +84,7 @@ public class DBUserImpl implements IUserDAO{
                 preparedStatement.setString(LOGIN_INDEX, login);
                 preparedStatement.setString(PASSWORD_INDEX, password);
                 preparedStatement.execute();
+
                 preparedStatement.close();
             }
         } catch (SQLException e) {

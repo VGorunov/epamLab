@@ -2,6 +2,7 @@ package by.gsu.epamlab.model.beans;
 
 import java.time.LocalDate;
 import java.util.Date;
+import java.util.Objects;
 import java.util.Random;
 
 public class Task {
@@ -11,8 +12,6 @@ public class Task {
     private LocalDate dateCompletion;
     private String fileName;
     private String actualFileName;
-    
-    private String fdf;
 
     public Task() {
     }

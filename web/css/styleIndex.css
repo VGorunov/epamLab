@@ -7,15 +7,15 @@
     display: none;
 }
 
-.header{
-    background-color: navy;
+header{
+    background-color: gray;
     width: 100%;
     font-family: sans-serif;
     display: flex;
     justify-content: space-between;
 }
 
-.header p{
+header p{
     text-align: right;
     color: white;
 }
@@ -30,4 +30,21 @@ th {
     border: 2px solid lightgray;
     padding: 5px;
     padding-right: 30px;
+}
+
+footer {
+    background: green;
+    padding: 24px 0;
+}
+.copy  {
+    font-size: 0.714em;
+    line-height: 1.7em;
+    color: #666d89;
+    text-align: center;
+}
+.copy a {
+    color: #eee;
+}
+.copy a:hover {
+    color: #a97b7b;
 }

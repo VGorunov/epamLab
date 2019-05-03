@@ -16,7 +16,7 @@ body{
 }
 
 
-.login-box{
+.registration-box{
     width: 320px;
     height: 420px;
     position: absolute;
@@ -29,29 +29,30 @@ body{
     color: #fff;
 }
 
-.login{
+
+.registration{
     padding: 70px 30px;
 }
 
-.login h1{
+.registration h1{
     margin: 0;
     padding: 0;
     text-align: center;
     font-size: 22px;
 }
 
-.login p{
+.registration p{
     margin: 0;
     padding: 0;
     font-weight: bold;
 }
 
-.login input{
+.registration input{
     width: 100%;
     margin-bottom: 20px;
 }
 
-.login input[type="text"], input[type="password"]{
+.registration input[type="text"], input[type="password"]{
     border: none;
     border-bottom: 1px solid #fff;
     background: transparent;
@@ -61,7 +62,7 @@ body{
     font-size: 16px;
 }
 
-.login input[type="submit"]{
+.registration input[type="submit"]{
     border: none;
     outline: none;
     background: #1c8adb;
@@ -70,8 +71,8 @@ body{
     border-radius: 20px;
 }
 
-.login a{
+/*.registration a{
     text-decoration: none;
     font-size: 14px;
     color: #fff;
-}
+} */
